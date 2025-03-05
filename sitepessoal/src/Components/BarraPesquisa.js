@@ -16,7 +16,7 @@ const Barra = styled.input`
 const LoginButton = styled.button`
     border: solid 3px gray;
     background-color: #fff;
-    color: #8b0000;
+    color: #000000;
     font-weight: bold;
     text-transform: uppercase;
     transition: all 0.2s ease 0s;
@@ -33,7 +33,7 @@ const LoginButton = styled.button`
 const BotaoPesquisar = styled.button`
   border: solid 3px gray;
   background-color: #fff;
-  color: #8b0000;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.2s ease 0s;

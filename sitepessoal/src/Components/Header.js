@@ -4,7 +4,7 @@ import BarraPesquisa from "./BarraPesquisa"
 
 const HeaderCustom = styled.header`
 height: 20vh;
-background-color: blue;
+background-color: #0099ff;
 display: flex;
 flex-direction: column;
 `
