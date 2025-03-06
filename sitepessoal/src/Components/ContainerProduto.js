@@ -27,6 +27,18 @@ const AdicionarCarrinho = styled.button`
   margin-left: auto;
   border: none;
   font-size: 0.9em;
+  @media (min-width: 1366px) {
+
+  }
+  @media (min-width: 1440px) {
+
+  }
+  @media (min-width: 1920px) {
+
+  }
+  @media (min-width: 2560px) {
+
+  }
   &:hover {
     background-color: #00dd00;
     color: #ffffff;
@@ -38,6 +50,18 @@ const PrecoProduto = styled.h3`
   color: #222222;
   margin-right: auto;
   margin-left: 25px;
+  @media (min-width: 1366px) {
+
+  }
+  @media (min-width: 1440px) {
+
+  }
+  @media (min-width: 1920px) {
+
+  }
+  @media (min-width: 2560px) {
+
+  }
 `
 
 const Titulo = styled.h2`
@@ -49,6 +73,18 @@ const ImageContainer = styled.div`
   width: 18vw;
   background-image: ${(props) => `url(${props.image})`};
   background-size: cover;
+  @media (min-width: 1366px) {
+
+  }
+  @media (min-width: 1440px) {
+
+  }
+  @media (min-width: 1920px) {
+
+  }
+  @media (min-width: 2560px) {
+
+  }
 `;
 
 const Container = styled.div`
@@ -59,6 +95,18 @@ const Container = styled.div`
   border-radius: 15px;
   border-color: gray;
   border-style: solid;
+  @media (min-width: 1366px) {
+
+  }
+  @media (min-width: 1440px) {
+
+  }
+  @media (min-width: 1920px) {
+
+  }
+  @media (min-width: 2560px) {
+
+  }
 `;
 
 function ContainerProduto({ produto }) {

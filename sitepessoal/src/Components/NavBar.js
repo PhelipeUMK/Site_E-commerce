@@ -8,6 +8,18 @@ const NavBarCustom = styled.div`
     display: flex;
     justify-content: left;
     margin-top: auto;
+@media (min-width: 1366px) {
+
+}
+@media (min-width: 1440px) {
+
+}
+@media (min-width: 1920px) {
+
+}
+@media (min-width: 2560px) {
+
+}
 `
 
 const Lista = styled.ul`
@@ -26,9 +38,21 @@ const ItemLista = styled(Link)`
     text-align: center;
     text-decoration: none;
     float: left;
+    @media (min-width: 1366px) {
+
+    }
+    @media (min-width: 1440px) {
+
+    }
+    @media (min-width: 1920px) {
+
+    }
+    @media (min-width: 2560px) {
+
+    }
     &:hover {
         text-decoration: underline;
-        }
+    }
 `
 
 const Icone = styled(Link)`
@@ -38,6 +62,18 @@ const Icone = styled(Link)`
     background-size: cover;
     margin-left: auto;
     margin-right: 20px;
+    @media (min-width: 1366px) {
+
+    }
+    @media (min-width: 1440px) {
+
+    }
+    @media (min-width: 1920px) {
+
+    }
+    @media (min-width: 2560px) {
+
+    }
     &:hover {
         background-color: white;
         color: red;
